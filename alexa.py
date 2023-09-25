@@ -69,7 +69,7 @@ while True:
         get_wikipedia_info(person)
 
     elif 'joke' in command:
-        tell_joke(b)
+        tell_joke()
 
     else:
         talk('Say that command again, please.')
